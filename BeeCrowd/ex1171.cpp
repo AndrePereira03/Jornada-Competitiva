@@ -12,6 +12,6 @@ int main()
         ocorrencia[val]++;
     }
     for(const pair<const int, int>& par :ocorrencia)
-    cout << par.first << " aparece " << par.second << " vez(es)" << endl;
+        cout << par.first << " aparece " << par.second << " vez(es)" << endl;
     return 0;
 }

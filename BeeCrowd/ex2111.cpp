@@ -28,8 +28,8 @@ int main()
                 abaco5[1][coluna] = 1;
             }
 
-            int contas_inferiores_ativas = digito % 5;
-            for (int i = 0; i < contas_inferiores_ativas; i++) abaco1[i][coluna] = 1; 
+            int contas1 = digito % 5;
+            for (int i = 0; i < contas1; i++) abaco1[i][coluna] = 1; 
             
             divisor *= 10;
         }

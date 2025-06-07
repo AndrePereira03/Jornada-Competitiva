@@ -19,16 +19,16 @@ int main() {
         int pacientesCriticos = 0;
         for (int i = 0; i < N; ++i)
         {
-            // Próximo horário exato de 30 em 30min
+            // prox horário exato de 30 em 30min
             tempo = max(tempo, chegada[i]);
             
-            //Arredonda para cima o proximo slot de 30min
+            //arredonda para cima o proximo slot de 30min
             if (tempo % 30 != 0) tempo += 30 - (tempo % 30);
             
-            // Se ficar crítico antes de ser atendido
+            // se ficar crítico antes de ser atendido
             if (critico[i] < tempo) pacientesCriticos++;
 
-            //Avança o tempo para o proximo atendimento
+            //avança o tempo para o proximo atendimento
             tempo += 30;
         }
         cout << pacientesCriticos << endl;

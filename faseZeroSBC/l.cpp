@@ -2,7 +2,7 @@
 
 using namespace std;
 
-/*bool ehPrimo(int n)
+bool ehPrimo(int n)
 {
     int i = n/2;
     while(n % i != 0)
@@ -11,7 +11,9 @@ using namespace std;
         i--;
     }
     return 0;
-}*/
+}
+
+
 
 int main()
 {

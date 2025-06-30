@@ -37,13 +37,14 @@ int main()
         cin >> alvo[i];
     }
     vector <int> cont(consultas);
-    cout << combinacao(n);
-    //for(int i = 0; i < combinacao(n); i++)
-
+    for(int i = 0; i < combinacao(n); i++)
+    {
+        if(soma(alvo[i], alvo));
+    }
 
     return 0;
 }
 
 /*
-
+    
 */
